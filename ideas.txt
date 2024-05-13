@@ -1,0 +1,16 @@
+THEMES:
+
+[the basis of the circle, after entering the name a short animation plays revealing the main sheet]
+
+Dwarven shield
+Trenchcoat revolver
+Elven mirror
+Celtic knotwork
+
+
+NAME:
+
+[enter name followed by animation, concentric rings grow out from nameCircle]
+
+Trenchcoat bullet
+Celtic knotwork

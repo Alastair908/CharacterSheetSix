@@ -1,3 +1,85 @@
 * {
     font-family: Caudex;
 }
+
+* {
+  border: 1px solid blueviolet;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+
+}
+
+header nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px 2vw;
+}
+
+main {
+  box-sizing: border-box;
+  position: relative;
+  top: 100px;
+  bottom: 200px;
+  height: calc(100vh - 100px); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #85948c;
+}
+
+#characterSheet {
+  box-sizing: border-box;
+  position: absolute;
+  height: calc(100vh - 100px); 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+#outerCircle, #bonusCircle, #abilityCircle, #nameCircle {
+  box-sizing: border-box;
+  border-radius: 50%;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+#outerCircle {
+  width: 80%;
+  height: 80%;
+}
+
+#bonusCircle {
+  width: 50%;
+  height: 50%;
+}
+
+#abilityCircle {
+  width: 40%;
+  height: 40%;
+}
+
+#nameCircle {
+  width: 30%;
+  height: 30%;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  height: 200px;
+
+}
+
+footer ul li {
+  list-style-type: none;
+  display: block;
+  padding: 5px 10px;
+  margin: 5px 2vw;
+}
+
