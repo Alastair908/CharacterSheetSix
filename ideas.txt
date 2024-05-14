@@ -14,3 +14,23 @@ NAME:
 
 Trenchcoat bullet
 Celtic knotwork
+
+
+ANIMATIONS:
+
+Default landing page transition -->
+    1. Landing page asks for name with from
+    2. Once entered, the circle shrinks as if falling down from a 3D top-down view.
+    3. As it 'settles' into its new position as the central 'nameCircle' element, it will send out 'ripples' which form the other circles 
+    4. These then also settle and expand slightly when moused over
+
+Trenchcoat landing page transition -->
+    1. Similar to default but you write your name on a bullet which loads into the chamber, and the revolver's cylinder is spun
+  
+Phone ability view --> 
+    1. On a phone, each ability can be chosen from the central circular view
+    2. Once in the view, the 'wheel' consisting of the 'abilityCircle' element will be on the left side of the screen
+    3. You can spin it with your finger to change the ability view without having to go back to the central view
+
+Ability distribution -->
+    1. User may toggle a button to see the 'radar chart' of their ability scores, radially emnating from the centre
