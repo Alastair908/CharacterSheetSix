@@ -19,7 +19,7 @@
 
 <body>
 
-  <header>
+  <!-- <header>
     <nav>
       <ul>
         <li>Vault</li>
@@ -28,15 +28,18 @@
         <li>Account</li>
       </ul>
     </nav>
-  </header>
+  </header> -->
 
   <main>
     <div id="characterSheet">
-      <div id="outerCircle">
-        <div id="bonusCircle">
-          <div id="abilityCircle">
-            <div id="nameCircle">
-              <h2>Name:</h2>
+      <div id="outerCircle" class="concCircle">
+        <div id="bonusCircle" class="concCircle">
+          <div id="abilityCircle" class="concCircle">
+            <div id="nameCircle" class="concCircle">
+              <h2 id="characterNamePrompter">Character Name:</h2>
+              <form id="characterNameForm" action="/submit-name" method="post">
+                <input id="characterNameInpuuter" type="text" name="name" placeholder="choose a name for your character" required>
+                <input id="characterNameSubmitter" type="submit" value="Submit">
             </div>
           </div>     
         </div>
@@ -45,15 +48,6 @@
 
     <script src="http://127.0.0.1:5500/CharacterSheet/scripts.js"></script>
   </main>
-
-  <footer>
-    <ul>
-      <li>Contact</li>
-      <li>Github</li>
-      <li>Feedback</li>
-      <li>Donate</li>
-    </ul>
-  </footer>
 
 </body>
 

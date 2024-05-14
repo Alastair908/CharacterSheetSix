@@ -1,48 +1,35 @@
 * {
-    font-family: Caudex;
+  box-sizing: border-box;
+  font-family: Caudex;
 }
 
 * {
-  border: 1px solid blueviolet;
+  border: 0.5px solid blueviolet;
 }
 
-header {
-  position: fixed;
-  width: 100%;
-  height: 100px;
-
+html, body, main, #characterSheet {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
 }
 
-header nav ul li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 5px 10px;
-  margin: 5px 2vw;
-}
-
-main {
-  box-sizing: border-box;
-  position: relative;
-  top: 100px;
-  bottom: 200px;
-  height: calc(100vh - 100px); 
+body, main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+main {
   background-color: #85948c;
 }
 
 #characterSheet {
-  box-sizing: border-box;
-  position: absolute;
-  height: calc(100vh - 100px); 
   display: flex; 
   justify-content: center; 
   align-items: center; 
 }
 
-#outerCircle, #bonusCircle, #abilityCircle, #nameCircle {
-  box-sizing: border-box;
+.concCircle {
   border-radius: 50%;
   display: flex; 
   justify-content: center; 
@@ -69,17 +56,36 @@ main {
   height: 30%;
 }
 
-footer {
+#characterNamePrompter {
+  margin-bottom: 15px;
+}
+
+#characterNameForm {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+#characterNameInputter {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+/* ### ### ### ### ### ### ### ### ### ### ### */
+/* Add in later */
+
+/* header {
   position: fixed;
   width: 100%;
-  height: 200px;
-
+  height: 100px;
 }
 
-footer ul li {
+header nav ul li {
   list-style-type: none;
-  display: block;
+  display: inline-block;
   padding: 5px 10px;
   margin: 5px 2vw;
-}
+} */
 
